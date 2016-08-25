@@ -1,28 +1,29 @@
 # Getting and Cleaning Data - Course Project
 
-Introduction
+## Introduction
 
-This repository contains my course project work for "Getting and Cleaning Data", the third course the Data Science Specialization on Coursera.  What follows first are my notes on the original data.
+###This repository contains my course project work for "Getting and Cleaning Data", the third course the Data Science Specialization on Coursera.  What follows first are my notes on the original data.
 
-About the raw data
 
-The 561 features are unlabeled and stored in the x_test.txt. 
-The activity labels are in the y_test.txt file. 
-The test subjects are in the subject_test.txt file.
+## About the raw data
 
-The same holds for the training set.
+### The 561 features are unlabeled and stored in the x_test.txt. 
+### The activity labels are in the y_test.txt file. 
+### The test subjects are in the subject_test.txt file.
 
-About the script and the tidy dataset
+### The same holds for the training set.
 
-A script named run_analysis.R was created.  It will merge the training and test data sets together. 
-Prerequisites for this script are:
-1. the UCI HAR Dataset must be extracted, and
-2. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
+## About the script and the tidy dataset
 
-Labels are added after merging training and test, but only the needed ones to calculate the mean and the standard deviation are kept.
+### A script named run_analysis.R was created.  It will merge the training and test data sets together. 
+### Prerequisites for this script are:
+* 1. the UCI HAR Dataset must be extracted, and
+* 2. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
 
-Lastly, the script will create a tidy data set containing the means of all the columns per test subject and per activity. This tidy dataset will be written to a tab-delimited file called tidy.txt, which can also be found in this repository.
+### Labels are added after merging training and test, but only the needed ones to calculate the mean and the standard deviation are kept.
 
-About the Code Book
+### Lastly, the script will create a tidy data set containing the means of all the columns per test subject and per activity. This tidy dataset will be written to a tab-delimited file called tidy.txt, which can also be found in this repository.
 
-The CodeBook.md file explains the transformations performed and the resulting data and variables.
+## About the Code Book
+
+### The CodeBook.md file explains the transformations performed and the resulting data and variables.
