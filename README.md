@@ -17,8 +17,8 @@ The same holds for the training set.
 
 A script named run_analysis.R was created.  It will merge the training and test data sets together. 
 Prerequisites for this script are:
-1. the UCI HAR Dataset must be extracted, and
-2. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
+* the UCI HAR Dataset must be extracted, and
+* the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
 
 Labels are added after merging training and test, but only the needed ones to calculate the mean and the standard deviation are kept.
 
